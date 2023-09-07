@@ -1,0 +1,706 @@
+html{
+    /* 62.5% of 16px = 10px */
+    font-size: 62.5%;
+}
+*, *::after, *::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;   
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Below is the header part styling code */
+
+.header{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: sticky;
+  top: 0;
+}
+.header__nav{
+    height: 50px;
+  }
+
+ .header__nav__ul a  {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    opacity: 0.7;
+  }
+  .header__nav__ul a:hover{
+    opacity: 1;
+  }
+  .header__nav__ul li{
+    list-style-type: none;
+  }
+  .logo{
+    width: 15px;
+  }
+  .bar{
+    width: 25px;
+  }
+  .header__nav__ul img{
+   max-width: 100%;
+  }
+
+  .atminwidth{
+    display: none;
+  }
+
+.atminwidth #ul__atminwidth li{
+  list-style-type: none;
+}
+#ul__atminwidth li a{
+  text-decoration: none;
+  font-size: 3rem;
+
+}
+
+
+  .store{
+    display: flex;
+    justify-content: left;
+    display: none;
+    padding-top: 50px;
+  }
+  /* .active{
+     display: block; 
+    display: flex;
+    justify-content: left;
+    padding-top: 50px;
+    color: white;
+  } */
+  
+  .store .list li{
+  list-style-type: none;
+  font-size: 2.5rem;
+}
+
+.store .shop li{
+  list-style-type: none;
+}
+
+.store__two, .store__three{
+  margin-left: 40px;
+}
+
+  @media (min-width: 992px){
+    .lessScreen-1{
+      display: none;
+    }
+  }
+  @media(max-width: 992px){
+    .header__nav{
+      display: none;
+    } 
+    .lessScreen{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logoes{
+      display: flex;
+      align-items: center;
+   }
+   .logoes .logo2{
+    margin-right: 30px;
+   }
+   .logoes .logo3{
+    margin-right: 30px;
+   }
+   .logoes .barItem{
+    margin-right: 30px;
+   }
+  } 
+
+
+/* Below is the main content section-1 */
+.rightAngle img{
+  width: 36px;
+  margin-left: -14px;
+}
+.rightAngle1 img{
+  width: 90px;
+  padding-top: 25px;
+  margin-left: -12px;
+}
+.rightAngle2 img{
+  width: 30px;
+  margin-left: -8px;
+  margin-bottom: 3px;
+}
+.rightAngle3 img{
+  width: 30px;
+  margin-left: -8px;
+  margin-top: 16px;
+}
+.rightAngle4 img{
+  width: 10px;
+  height: 30px;
+  margin-left: -12px;
+  margin-top: 22px;
+}
+#unique a{
+  color:  rgb(41, 151, 255);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+@media(max-width:501px) {
+.wrapper2 h3 {
+  margin-bottom: -15px;
+}
+}
+
+.maincontent1-wrapper{
+  background-image: url(../images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+  height: 624px;
+  background-position: center;
+  
+}
+.maincontent1-wrapper h2 a{
+  color: white;
+  text-decoration: none;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.maincontent1-wrapper h3, .maincontent1-wrapper .maincontent1__link, .maincontent1-wrapper h2 {
+  text-align: center;
+}
+
+.maincontent1-wrapper h3 a {
+  color: white;
+  text-decoration:  none;
+  font-size: 3rem;
+  font-weight: 500px;
+}
+
+.maincontent1-wrapper .maincontent1__link a, .maincontent1-wrapper .maincontent1__link{
+  color:  rgb(41, 151, 255);
+  font-size: 2.2rem;
+  text-decoration: none;
+}
+
+.maincontent1__sub{
+  padding-top: 50px;
+}
+.buy{
+  margin-left: 18px;
+}
+
+
+@media (max-width: 992px){
+  .maincontent1-wrapper{
+    background-image: url(../images/hero_iphone14pro_spring__9xo85pm6sbmm_small.jpg);
+    height: 548px;
+    background-position: center;
+  }
+}
+
+@media(max-width:380px){
+.maincontent1-wrapper h2 a{
+  font-size: 3.5rem;
+  
+}
+}
+
+/* Below is the main content section-2 */
+
+.maincontent2-wrapper{
+  background-image: url(../images/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+  height: 624px;
+  background-position: center;
+  background-size: cover;
+}
+.maincontent2-wrapper h2 a{
+  color: black;
+  text-decoration: none;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.maincontent2-wrapper h3, .maincontent2-wrapper .maincontent2__link, .maincontent2-wrapper h2 {
+  text-align: center;
+}
+
+.maincontent2-wrapper h3 a {
+  color: black;
+  text-decoration:  none;
+  font-size: 3rem;
+  font-weight: 500px;
+}
+
+.maincontent2-wrapper .maincontent2__link a, .maincontent2-wrapper .maincontent2__link{
+  color:  rgb(41, 151, 255);
+  font-size: 2.2rem;
+  text-decoration: none;
+}
+
+.maincontent2__sub{
+  padding-top: 50px;
+}
+
+
+@media(max-width:680px){
+  .maincontent2-wrapper{
+    /* background-image: url(../../resources/images/hero_iphone14_yellow__eun20sn4imi6_large.jpg); */
+    height: 400px;
+    width: auto;
+    /* background-position: center;
+    background-size: cover; */
+  }
+}
+@media(max-width:450px){
+  .maincontent2-wrapper{
+    height: 350px;
+    width: auto;
+  }
+}
+@media(max-width:380px){
+  .maincontent2-wrapper{
+    
+    height: 300px;
+    width: auto;
+  }
+}
+@media(max-width:320px){
+  .maincontent2-wrapper{
+    height: 290px;
+    width: auto;
+    margin-top: 0;
+  }
+
+}
+
+@media(max-width:380px){
+.maincontent2-wrapper h2 a{
+  font-size: 3.5rem; 
+}
+}
+
+@media(max-width:681px){
+  .maincontent2__sub{
+  padding-top: 0px;
+}
+}
+
+/* Below is the main content section-3 */
+
+.maincontent3-wrapper{
+  background-image: url(../images/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg);
+  height: 624px;
+  background-position: center;
+  background-size: cover;
+}
+.maincontent3-wrapper h2 a{
+  color: white;
+  text-decoration: none;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.maincontent3-wrapper h3, .maincontent3-wrapper .maincontent3__link, .maincontent3-wrapper h2 {
+  text-align: center;
+}
+
+.maincontent3-wrapper h3 a {
+  color: white;
+  text-decoration:  none;
+  font-size: 3rem;
+  font-weight: 500px;
+}
+
+.maincontent3-wrapper .maincontent3__link a, .maincontent3-wrapper .maincontent3__link{
+  color:  rgb(41, 151, 255);
+  font-size: 2.2rem;
+  text-decoration: none;
+}
+.maincontent3__sub{
+  padding-top: 50px;
+}
+
+.maincontent3-wrapper h4{
+  text-align: center;
+  color: red;
+  letter-spacing: 4px;
+  font-weight: 600;
+  font-size: 1.9rem;
+  opacity: 0.8;  
+}
+
+.maincontent3__sub img{
+  width: 35px;
+  margin-bottom: 25px;
+}
+
+@media(max-width:500px){
+.maincontent3-wrapper{
+    height: 500px;
+    width: auto;
+  }
+}
+@media(max-width:400px){
+.maincontent3-wrapper{
+    height: 380px;
+    width: auto;
+  }
+  .maincontent3__sub{
+  padding-top: 10px;
+  
+}
+  .maincontent3-wrapper h2 a{
+  font-size: 3.5rem;
+
+}
+.maincontent3-wrapper h3 a {
+
+  font-size: 2rem;
+}
+}
+@media(max-width:350px){
+.maincontent3-wrapper{
+    height: 250px;
+    width: auto;
+  }
+}
+
+
+
+
+
+/* below the last main part */
+
+
+.bg-1{
+  background-image: url(../images/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+    width: 100%; 
+    height: 580px;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat; /* you can leave this property */ 
+    margin: 12px;
+  }
+  .bg-1 .wrapper1{
+    text-align: center;
+}
+.bg-1 img{
+  width: 30px;
+  margin-bottom: 10px;
+  margin-right: -6px;
+}
+  .bg-1 span{ /* for "Trade in" text */
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+    
+  }
+  .bg-1 a h3{
+    color: black;
+    font-size: 2rem;
+  }
+  .bg-1 a h4{
+   font-size: 1.6rem;
+  }
+  .bg-1 a{
+    text-decoration: none;
+  }
+
+  @media (min-width: 992px){
+    .images1{
+    display: flex;
+}
+    .bg-1{
+      width: 50%; 
+      height: 580px;
+      background-size: cover;
+      background-position: center ;
+      background-repeat: no-repeat; /* you can leave this property */ 
+      margin: 12px;
+    }
+    .bg-2{
+    width: 50%; 
+    height: 580px;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat; /* you can leave this property */ 
+    margin: 12px;
+  }
+  }
+
+  @media(max-width:600px){
+    .bg-1{
+      height: 450px;
+    }
+  }
+ @media(max-width:400px){
+    .bg-1{
+      height: 350px;
+    }
+  }
+
+  .bg-2{
+    background-image: url(../images/promo_wwdc23__b68ptht3mro2_large.jpg); 
+    width: 100%; 
+    height: 580px;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat; /* you can leave this property */ 
+    margin: 12px;
+
+}
+.bg-2 .wrapper2{
+  text-align: center;
+  padding-top: 400px;
+}
+.bg-2 a{
+  text-decoration: none;
+}
+.bg-2 img{
+  width: 35px;
+  margin-bottom: 25px;
+}
+.bg-2 a span{
+  color: white;
+  font-size: 4rem;
+}
+ .bg-2 a h3{
+  color: white;
+ }
+.bg-2 a h4{
+  font-size: 1.7rem;
+  opacity: 0.9;
+}
+
+@media(max-width:500px){
+  .bg-2{
+    height: 400px;
+
+  }
+  .bg-2 a span{
+  font-size: 2rem;
+}
+.bg-2 .wrapper2{
+  padding-top: 250px;
+}
+}
+@media(max-width:350px){
+  .bg-2{
+    height: 300px;
+  } 
+  .bg-2 .wrapper2{
+  padding-top: 150px;
+}
+}
+
+
+.bg-3{
+  background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg); 
+  width: 100%; 
+  height: 580px;
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat; /* you can leave this property */ 
+  margin: 12px;
+}
+
+.bg-3 .wrapper3{
+  text-align: center;
+}
+.bg-3 a{
+  text-decoration: none;
+}
+.bg-3 a h2{
+  color: black;
+  font-size: 4rem;
+  font-weight: 550;
+}
+
+.bg-3 a h3{
+  color: black;
+}
+
+.bg-3 .maincontent4__link a {
+  font-size: 1.5rem;
+}
+
+
+
+@media (min-width: 992px){
+  .images2{
+  display: flex;
+}
+  .bg-2{
+    width: 50%; 
+    height: 580px;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat; /* you can leave this property */ 
+    margin: 12px;
+  }
+.bg-4{
+   width: 50%; 
+   height: 580px;
+   background-size: cover;
+   background-position: center ;
+   background-repeat: no-repeat; /* you can leave this property */ 
+   margin: 12px;
+}
+}
+
+.bg-4{
+  background-image: url(../images/promo_mbp__ek7p477bkp6q_large.jpg); 
+  width: 100%; 
+  height: 580px;
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat; /* you can leave this property */ 
+  margin: 12px;
+
+}
+.bg-4 .wrapper4{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bg-4 a{
+  text-decoration: none;
+}
+
+.bg-4 a h1{
+  color: white;
+  font-size: 4rem;
+  font-weight: 550;
+}
+
+.bg-4 a h3{
+  color: white;
+}
+
+.bg-4 .maincontent4__link a {
+  font-size: 1.5rem;
+}
+
+@media(max-width:992px){
+  .bg-4 .wrapper4 {
+  padding-top: 60px;
+}
+}
+/* below is footer part */
+
+.footer{
+  background-color: #f5f5f7;
+}
+
+.footer__paragraph li{
+  font-size: 1.2rem;
+  opacity: 0.8;
+  line-height: 25px;
+}
+.footer li{
+  list-style-type: none;
+}
+.footer ul{  /* to set zero ul, left padding comming from bootstrap*/
+  padding-left: 0;
+}
+
+.footer .footer__two a {
+  
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  line-height: 30px;
+  font-size: 1.2rem;
+}
+.last p {
+word-spacing: 3px;
+font-size: 1.2rem;
+}
+.last__one a, .usa a{
+  color: black;
+  text-decoration: none;
+}
+.USA{
+position: absolute;
+right: 443px;
+}
+.last__one{
+  margin-top: 5px;
+}
+.borderleft{
+  border-right: 1.5px solid rgba(0, 0, 0, 0.5) ;
+  margin-left: 16px;
+  padding-right: 16px;
+  
+}
+@media(min-width: 1000px){
+  .footer__paragraph, .footer__two, .last{
+       width: 1000px;
+       margin: 0 auto;
+   }
+  .horizontal{
+    display: none;
+  }
+
+  }
+ 
+@media(max-width:1000px){
+   .hide{
+    display: none;
+  }
+   .firstli{
+    position: relative;
+  }
+  .show .addplus::after{
+  content: "x";
+}
+  .addplus::after{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 2rem;
+     }
+     .handlEvent h3{
+      padding: 10px 10px 10px 0;
+     }
+    }
+
+    @media(max-width:992px){
+      .USA, .lastLine{
+        display: none;
+      }
+    }
+    @media(min-width:992px){
+      .usa{
+        display: none;
+      }
+    }
+
+ .show .hide{
+   display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
